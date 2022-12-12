@@ -5,7 +5,7 @@
   "tokens": [
     {
       "chainId": 5343511,
-      "address": "0x03b2bbd5096499b556d9b749c604c2d353da6161",
+      "address": "0x825f0878cb8c5fa17d5e913de7f9728f90fe6213",
       "name": "TSUSDC",
       "symbol": "TSUSDC",
       "decimals": 18,
@@ -13,7 +13,7 @@
     },
     {
       "chainId": 5343541,
-      "address": "0xbe3763173594A13be39E8Ab199BF4132294a74BA",
+      "address": "0x415f01fb0abfb7b9eedc3f746031235f7d0021bc",
       "name": "TSUSDC",
       "symbol": "TSUSDC",
       "decimals": 18,
