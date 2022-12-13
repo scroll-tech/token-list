@@ -37,14 +37,6 @@
       "logoURI": "https://staging--prealpha.netlify.app/swap/images/weth.png"
     },
     {
-      "chainId": 5343511,
-      "address": "",
-      "name": "TSUNI2",
-      "symbol": "TSUNI2",
-      "decimals": 18,
-      "logoURI": "https://staging--prealpha.netlify.app/swap/images/uni-v2.png"
-    },
-    {
       "chainId": 5343541,
       "address": "0x821488866bac2cf3f62f59f0a1a43acf50d842b5",
       "name": "TSUNI2",
