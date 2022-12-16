@@ -29,5 +29,4 @@ jobs:
         run: yarn
 
       - name: Run validate script
-        run: |
-          scripts/validateJson.mjs
+        run: node scripts/validateJson.mjs
