@@ -40,5 +40,5 @@ jobs:
       - uses: thollander/actions-comment-pull-request@v2
         with:
           message: |
-            :tada: <a href="https://tokenlists.org/token-list?url=https://raw.githubusercontent.com/scroll-tech/token-list/${{ github.head_ref }}/scroll.tokenlist.json" target="_blank" rel="noopener noreferrer">Click here</a> to preview token list
+            :tada: [Click here](https://tokenlists.org/token-list?url=https://raw.githubusercontent.com/scroll-tech/token-list/${{ github.head_ref }}/scroll.tokenlist.json) to preview token list
           comment_tag: tokenListUrl
