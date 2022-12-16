@@ -30,3 +30,14 @@ jobs:
 
       - name: Run validate script
         run: node scripts/validateJson.mjs
+
+  show:
+    name: online address
+    needs: validate
+    if: success()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: |
+            You can view token list https://tokenlists.org/token-list?url=https://raw.githubusercontent.com/scroll-tech/token-list/${{ github.head_ref }}/scroll.tokenlist.json
