@@ -40,4 +40,5 @@ jobs:
       - uses: thollander/actions-comment-pull-request@v2
         with:
           message: |
-            You can view token list https://tokenlists.org/token-list?url=https://raw.githubusercontent.com/scroll-tech/token-list/${{ github.head_ref }}/scroll.tokenlist.json
+            :hooray You can view token list https://tokenlists.org/token-list?url=https://raw.githubusercontent.com/scroll-tech/token-list/${{ github.head_ref }}/scroll.tokenlist.json
+          comment_tag: execution
