@@ -25,5 +25,11 @@ async function validate() {
 }
 
 validate()
-  .then(() => process.exit(0))
-  .catch(() => process.exit(1));
+  .then(() => {
+    console.log('Valid Token List');
+    process.exit(0);
+  })
+  .catch((error) => {
+    console.warn(error?.[0].message || error.message);
+    process.exit(1);
+  });
