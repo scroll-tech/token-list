@@ -1,6 +1,6 @@
-name: '💡 Add ERC20 token'
-description: Add
-title: 'Add <title>'
+name: 'Add ERC20 token'
+description: 'Add ERC20 token'
+title: '[Token]: '
 labels: ['new', 'checked']
 body:
   - type: input
