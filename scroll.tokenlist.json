@@ -1,48 +1,40 @@
 {
   "name": "Scroll",
-  "logoURI": "https://staging--scroll-io.netlify.app/imgs/home/logo.png",
+  "logoURI": " https://scroll-io.netlify.app/imgs/home/logo.png",
   "keywords": ["scaling", "layer2", "infrastructure"],
   "timestamp": "2022-12-12T11:55:01.869Z",
   "tokens": [
     {
-      "chainId": 5343511,
-      "address": "0x825f0878cb8c5fa17d5e913de7f9728f90fe6213",
+      "chainId": 534351,
+      "address": "0xc55730ccaae4dd2523dd3c52693fe0ecb9b3a856",
       "name": "TSUSDC",
       "symbol": "TSUSDC",
       "decimals": 18,
-      "logoURI": "https://staging--scroll-io.netlify.app/swap/images/usd-coin.png"
+      "logoURI": " https://scroll-io.netlify.app/swap/images/usd-coin.png"
     },
     {
-      "chainId": 5343541,
-      "address": "0x415f01fb0abfb7b9eedc3f746031235f7d0021bc",
+      "chainId": 534354,
+      "address": "0x6c7211F2d7e8b5a89Bea818ac6a8e7240906e53D",
       "name": "TSUSDC",
       "symbol": "TSUSDC",
       "decimals": 18,
-      "logoURI": "https://staging--scroll-io.netlify.app/swap/images/usd-coin.png"
+      "logoURI": " https://scroll-io.netlify.app/swap/images/usd-coin.png"
     },
     {
-      "chainId": 5343511,
-      "address": "0xd9BEbb27593F68dB0fA69632F0A3db97144D90C7",
+      "chainId": 534351,
+      "address": "0xE8c046206e7b97E30955334F9Eb0bf4912aDc09d",
       "name": "TSWETH",
       "symbol": "TSWETH",
       "decimals": 18,
-      "logoURI": "https://staging--scroll-io.netlify.app/swap/images/weth.png"
+      "logoURI": " https://scroll-io.netlify.app/swap/images/weth.png"
     },
     {
-      "chainId": 5343541,
-      "address": "0xE3c0cC31695b2112c29E5261df794088521cc64f",
+      "chainId": 534354,
+      "address": "0x6b29C65597Fa2aC80Ab181989969092971f1Fa4e",
       "name": "TSWETH",
       "symbol": "TSWETH",
       "decimals": 18,
-      "logoURI": "https://staging--scroll-io.netlify.app/swap/images/weth.png"
-    },
-    {
-      "chainId": 5343541,
-      "address": "0x821488866bac2cf3f62f59f0a1a43acf50d842b5",
-      "name": "TSUNI2",
-      "symbol": "TSUNI2",
-      "decimals": 18,
-      "logoURI": "https://staging--scroll-io.netlify.app/swap/images/uni-v2.png"
+      "logoURI": " https://scroll-io.netlify.app/swap/images/weth.png"
     }
   ],
   "version": {
