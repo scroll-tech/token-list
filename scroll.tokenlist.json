@@ -22,7 +22,7 @@
     },
     {
       "chainId": 5343511,
-      "address": "0xd9BEbb27593F68dB0fA69632F0A3db97144D90C7",
+      "address": "0xbCb483C95Cb9F686E89b3755037d86254Be58a97",
       "name": "TSWETH",
       "symbol": "TSWETH",
       "decimals": 18,
@@ -30,7 +30,7 @@
     },
     {
       "chainId": 5343541,
-      "address": "0xE3c0cC31695b2112c29E5261df794088521cc64f",
+      "address": "0x4d5d1747a404e7AC4Cf5e173Ef192c2A0c8d1B12",
       "name": "TSWETH",
       "symbol": "TSWETH",
       "decimals": 18,
@@ -38,7 +38,7 @@
     },
     {
       "chainId": 5343541,
-      "address": "0x821488866bac2cf3f62f59f0a1a43acf50d842b5",
+      "address": "0xa6cc5d4bc2d197bf38d71c1c21c42d428bac325c",
       "name": "TSUNI2",
       "symbol": "TSUNI2",
       "decimals": 18,
