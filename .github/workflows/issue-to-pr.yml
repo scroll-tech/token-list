@@ -42,3 +42,4 @@ jobs:
         with:
           add: scroll.tokenlist.json
           message: add ${{ steps.issue-parser.outputs.issueparser_symbol }}
+          new_branch: ${{ steps.issue-parser.outputs.issueparser_symbol }}
