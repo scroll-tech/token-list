@@ -29,14 +29,11 @@ jobs:
       - name: Export New Token
         run: echo '${{ steps.issue-parser.outputs.jsonString }}' > new_token.json
 
+      - name: Checkout New Branch
+        run: git checkout ${{ steps.issue-parser.outputs.issueparser_symbol }}
+
       - name: Add New Token
         run: node scripts/addToken.mjs
-
-      - name: Checkout New Branch
-        run: |
-          git stash
-          git checkout ${{ steps.issue-parser.outputs.issueparser_symbol }}
-          git stash pop
 
       - name: Submit New Token
         uses: EndBug/add-and-commit@v9
