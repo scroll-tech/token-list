@@ -8,7 +8,7 @@ on:
 
 jobs:
   validate:
-    name: validate
+    name: Issue To Pr
     runs-on: ubuntu-latest
 
     steps:
@@ -48,7 +48,7 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           title: '[New Token] name: ${{ steps.issue-parser.outputs.issueparser_name }}'
-          message: add ${{ steps.issue-parser.outputs.issueparser_symbol }}
+          commit-message: add ${{ steps.issue-parser.outputs.issueparser_symbol }}
           base: staging
           branch: new-token/${{ steps.issue-parser.outputs.issueparser_symbol }}
           delete-branch: true
