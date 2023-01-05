@@ -3,6 +3,9 @@ name: Issue To Pr
 on:
   issues:
     types: [opened]
+  push:
+    paths:
+      - .github/workflows/issue-to-pr.yml
 
 jobs:
   validate:
