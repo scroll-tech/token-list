@@ -6,10 +6,6 @@ on:
       - opened
       - labeled
 
-  push:
-    paths:
-      - .github/workflows/issue-to-pr.yml
-
 jobs:
   validate:
     name: validate
