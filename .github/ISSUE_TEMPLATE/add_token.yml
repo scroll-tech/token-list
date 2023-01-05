@@ -1,5 +1,5 @@
 name: 'Add ERC20 token'
-description: 'Add ERC20 token'
+description: 'Standard or Custom'
 title: '[Token]: '
 labels: ['new', 'checked']
 body:
