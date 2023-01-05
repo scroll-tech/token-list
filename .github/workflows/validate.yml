@@ -2,12 +2,11 @@ name: Validate TokenList
 
 on:
   push:
-    branches:
-      - staging
-      - main
+    paths:
+      - scroll.tokenlist.json
   pull_request:
     paths:
-      - 'scroll.tokenlist.json'
+      - scroll.tokenlist.json
 
 jobs:
   validate:

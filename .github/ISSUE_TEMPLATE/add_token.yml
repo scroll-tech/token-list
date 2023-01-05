@@ -6,7 +6,7 @@ body:
   - type: input
     id: chainId
     attributes:
-      label: 'name'
+      label: 'chainId'
       description: The chain ID of the Ethereum network where this token is deployed
       placeholder: '5343511'
     validations:
@@ -17,14 +17,6 @@ body:
       label: 'address'
       description: The checksummed address of the token on the specified chain ID
       placeholder: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48'
-    validations:
-      required: true
-  - type: input
-    id: decimals
-    attributes:
-      label: 'decimals'
-      description: The number of decimals for the token balance
-      placeholder: '18'
     validations:
       required: true
   - type: input
@@ -41,6 +33,14 @@ body:
       label: 'symbol'
       description: The symbol for the token; must be alphanumeric
       placeholder: 'USDC'
+    validations:
+      required: true
+  - type: input
+    id: decimals
+    attributes:
+      label: 'decimals'
+      description: The number of decimals for the token balance
+      placeholder: '18'
     validations:
       required: true
   - type: input
