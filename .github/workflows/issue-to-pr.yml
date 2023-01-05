@@ -2,7 +2,10 @@ name: Issue To Pr
 
 on:
   issues:
-    types: [opened]
+    types:
+      - opened
+      - labeled
+
   push:
     paths:
       - .github/workflows/issue-to-pr.yml
@@ -23,21 +26,11 @@ jobs:
         with:
           node-version: 16.x
 
-      - name: Run Issue form parser
-        id: parse
-        uses: peter-murray/issue-forms-body-parser@v2.0.0
-        with:
-          issue_id: 3
-          separator: '###'
-          label_marker_start: '>>'
-          label_marker_end: '<<'
-
       - name: Parse Issue Body
         uses: stefanbuck/github-issue-praser@v3
         id: issue-parser
         with:
           template-path: .github/ISSUE_TEMPLATE/add_token.yml
-          issue-body: ${{ steps.parse.outputs.payload }}
 
       - name: Export New Token
         run: echo '${{ steps.issue-parser.outputs.jsonString }}' > new_token.json
