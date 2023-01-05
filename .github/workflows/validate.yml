@@ -6,9 +6,8 @@ on:
       - staging
       - main
   pull_request:
-    branches:
-      - staging
-      - main
+    paths:
+      - 'scroll.tokenlist.json'
 
 jobs:
   validate:
