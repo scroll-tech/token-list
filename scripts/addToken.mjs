@@ -14,7 +14,7 @@ import { readJson, generatePath } from './util.mjs';
     await writeFile(generatePath('../scroll.tokenlist.json'), tokenListStr);
     process.exit(0);
   } catch (e) {
-    console.error(e.toString());
+    console.error(e);
     process.exit(1);
   }
 })();
