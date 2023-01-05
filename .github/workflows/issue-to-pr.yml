@@ -8,7 +8,7 @@ on:
 
 jobs:
   validate:
-    name: validate
+    name: Issue To Pr
     runs-on: ubuntu-latest
 
     steps:
