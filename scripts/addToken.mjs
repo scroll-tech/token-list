@@ -3,11 +3,19 @@ import { readJson, generatePath } from './util.mjs';
 
 (async () => {
   try {
-    const newToken = await readJson('../new_token.json');
+    const { chainId, address, name, symbol, decimals, logoURI } =
+      await readJson('../new_token.json');
 
     const tokenList = await readJson('../scroll.tokenlist.json');
 
-    tokenList.tokens.push(newToken);
+    tokenList.tokens.push({
+      chainId: parseInt(chainId),
+      address,
+      name,
+      symbol,
+      decimals: parseInt(decimals),
+      logoURI,
+    });
     tokenList.timestamp = new Date().toISOString();
     const tokenListStr = JSON.stringify(tokenList, null, 2);
 
