@@ -8,7 +8,7 @@ on:
 
 jobs:
   validate:
-    name: Issue To Pr
+    name: validate
     runs-on: ubuntu-latest
 
     steps:
@@ -37,9 +37,22 @@ jobs:
       - name: Add New Token
         run: node scripts/addToken.mjs
 
-      - name: Submit New Token
-        uses: EndBug/add-and-commit@v9
+      # - name: Submit New Token
+      #   uses: EndBug/add-and-commit@v9
+      #   with:
+      #     add: scroll.tokenlist.json
+      #     message: add ${{ steps.issue-parser.outputs.issueparser_symbol }}
+      #     new_branch: ${{ steps.issue-parser.outputs.issueparser_symbol }}
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
         with:
-          add: scroll.tokenlist.json
+          title: '[New Token] name: ${{ steps.issue-parser.outputs.issueparser_name }}'
           message: add ${{ steps.issue-parser.outputs.issueparser_symbol }}
-          new_branch: ${{ steps.issue-parser.outputs.issueparser_symbol }}
+          base: staging
+          branch: new-token/${{ steps.issue-parser.outputs.issueparser_symbol }}
+          delete-branch: true
+          add-paths: scroll.tokenlist.json
+          labels: |
+            new token
+            need to review
