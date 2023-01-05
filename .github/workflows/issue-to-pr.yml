@@ -31,8 +31,8 @@ jobs:
       - name: Export New Token
         run: echo '${{ steps.issue-parser.outputs.jsonString }}' > new_token.json
 
-      - name: Checkout New Branch
-        run: git checkout -B ${{ steps.issue-parser.outputs.issueparser_symbol }}
+      # - name: Checkout New Branch
+      #   run: git checkout -B ${{ steps.issue-parser.outputs.issueparser_symbol }}
 
       - name: Add New Token
         run: node scripts/addToken.mjs
