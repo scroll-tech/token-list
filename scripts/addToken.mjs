@@ -4,10 +4,10 @@ import { readJson, generatePath } from './util.mjs';
 
 (async () => {
   try {
-    const tokenStr = core.getInput('token');
+    const token = JSON.parse(process.env.NEW_TOKEN);
     const tokenList = await readJson('../scroll.tokenlist.json');
 
-    tokenList.tokens.push(JSON.parse(tokenStr));
+    tokenList.tokens.push(token);
     tokenList.timestamp = new Date().toISOString();
     const tokenListStr = JSON.stringify(tokenList, null, 2);
 

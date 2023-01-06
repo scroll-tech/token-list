@@ -7,7 +7,7 @@ on:
       - labeled
 
 jobs:
-  validate:
+  issue-to-pr:
     name: Issue To Pr
     runs-on: ubuntu-latest
 
@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: 16.x
 
+      - name: Install dependencies
+        run: yarn
+
       - name: Parse Issue Body
         uses: stefanbuck/github-issue-praser@v3
         id: issue-parser
@@ -30,17 +33,27 @@ jobs:
       - name: Parse Token
         id: parse-token
         run: node scripts/parseToken.mjs
-        with:
-          token: ${{ steps.issue-parser.outputs.jsonString }}
+        env:
+          RESOLVED_TOKEN_STR: ${{ steps.issue-parser.outputs.jsonString }}
 
-      - name: Checkout Branch
-        run: git checkout -B ${{ steps.parse-token.outputs.prealpha-env }}
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: ${{ steps.parse-token.outputs.prealpha-env }}
+
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Install dependencies
+        run: yarn
 
       - name: Add Token
         id: add-token
         run: node scripts/addToken.mjs
-        with:
-          token: ${{ steps.parse-token.outputs.issueparser_symbol }}
+        env:
+          NEW_TOKEN: ${{ steps.parse-token.outputs.new-token }}
 
       # - name: Submit New Token
       #   uses: EndBug/add-and-commit@v9
@@ -55,7 +68,7 @@ jobs:
           title: '[New Token] name: ${{ steps.issue-parser.outputs.issueparser_name }}'
           body: 'Refer: #${{ github.event.issue.issue_number }}'
           commit-message: add ${{ steps.issue-parser.outputs.issueparser_symbol }}
-          base: ${{ steps.add-token.outputs.prealpha-env }}
+          base: ${{ steps.parse-token.outputs.prealpha-env }}
           branch: new-token/${{ steps.issue-parser.outputs.issueparser_symbol }}
           delete-branch: true
           add-paths: scroll.tokenlist.json

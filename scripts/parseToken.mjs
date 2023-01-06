@@ -2,9 +2,9 @@ import * as core from '@actions/core';
 
 (async () => {
   try {
-    const tokenStr = core.getInput('token');
+    const token = JSON.parse(process.env.RESOLVED_TOKEN_STR);
     const { prealphaEnv, chainId, address, name, symbol, decimals, logoURI } =
-      JSON.parse(tokenStr);
+      token;
     const newtoken = {
       chainId: parseInt(chainId),
       address,
