@@ -37,7 +37,7 @@ jobs:
           RESOLVED_TOKEN_STR: ${{ steps.issue-parser.outputs.jsonString }}
 
       - name: Checkout Branch
-        run: git checkout -B ${{ steps.parse-token.outputs.prealpha-env }}
+        run: git checkout ${{ steps.parse-token.outputs.prealpha-env }}
 
       - name: Add Token
         id: add-token
