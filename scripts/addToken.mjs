@@ -3,7 +3,6 @@ import { readJson, generatePath } from './util.mjs';
 
 (async () => {
   try {
-    console.log(process.env.NEW_TOKEN, 'process.env.NEW_TOKEN');
     const token = JSON.parse(process.env.NEW_TOKEN);
     const tokenList = await readJson('../scroll.tokenlist.json');
 
