@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: 16.x
 
+      - name: Install dependencies
+        run: yarn
+
       - name: Parse Issue Body
         uses: stefanbuck/github-issue-praser@v3
         id: issue-parser
