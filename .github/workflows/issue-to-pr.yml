@@ -80,7 +80,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          ref: ${{needs.issue-to-pr.outputs.branch-name}}
+          ref: ${{ needs.issue-to-pr.outputs.branch-name }}
 
       - name: Use Node.js 16.x
         uses: actions/setup-node@v3
@@ -95,11 +95,11 @@ jobs:
         run: node scripts/validateJson.mjs
 
       - name: Show Token List
-        if: ${{ success() }}
+        if: success()
         uses: thollander/actions-comment-pull-request@v2
         with:
           message: |
-            :tada: [Click here](https://tokenlists.org/token-list?url=https://raw.githubusercontent.com/scroll-tech/token-list/${{ github.head_ref }}/scroll.tokenlist.json) to preview token list
+            :tada: [Click here](https://tokenlists.org/token-list?url=https://raw.githubusercontent.com/scroll-tech/token-list/${{ needs.issue-to-pr.outputs.branch-name }}/scroll.tokenlist.json) to preview token list
           comment_tag: tokenListUrl
           pr_number: ${{needs.issue-to-pr.outputs.pr-number}}
 

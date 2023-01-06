@@ -31,7 +31,7 @@ jobs:
         run: node scripts/validateJson.mjs
 
       - name: Show Token List
-        if: success() && github.event.type == "PullRequestEvent"
+        if: success() && github.event.type == 'PullRequestEvent'
         uses: thollander/actions-comment-pull-request@v2
         with:
           message: |
