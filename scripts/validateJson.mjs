@@ -1,18 +1,14 @@
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
-import { readFile } from 'fs/promises';
+import { readJson } from './util.mjs';
 
 async function validate() {
   const ajv = new Ajv({ allErrors: true, verbose: true });
   addFormats(ajv);
-  const schema = await readFile(
-    new URL('../tokenlist.schema.json', import.meta.url)
-  );
-  const validator = ajv.compile(JSON.parse(schema));
-  const tokenList = await readFile(
-    new URL('../scroll.tokenlist.json', import.meta.url)
-  );
-  const valid = validator(JSON.parse(tokenList));
+  const schema = await readJson('../tokenlist.schema.json');
+  const validator = ajv.compile(schema);
+  const tokenList = await readJson('../scroll.tokenlist.json');
+  const valid = validator(tokenList);
   if (valid) {
     return valid;
   }
@@ -26,4 +22,7 @@ async function validate() {
 
 validate()
   .then(() => process.exit(0))
-  .catch(() => process.exit(1));
+  .catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
