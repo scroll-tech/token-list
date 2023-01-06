@@ -1,8 +1,12 @@
 {
   "name": "Scroll",
   "logoURI": "https://scroll-io.netlify.app/imgs/home/logo.png",
-  "keywords": ["scaling", "layer2", "infrastructure"],
-  "timestamp": "2022-12-12T11:55:01.869Z",
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2023-01-06T09:19:40.703Z",
   "tokens": [
     {
       "chainId": 534351,
@@ -33,6 +37,14 @@
       "address": "0x6b29C65597Fa2aC80Ab181989969092971f1Fa4e",
       "name": "TSWETH",
       "symbol": "TSWETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-io.netlify.app/swap/images/weth.png"
+    },
+    {
+      "chainId": 123456,
+      "address": "0xc55730ccaae4dd2523dd3c52693fe0ecb9b3a856",
+      "name": "TEST Coin",
+      "symbol": "TESTC",
       "decimals": 18,
       "logoURI": "https://scroll-io.netlify.app/swap/images/weth.png"
     }
