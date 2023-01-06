@@ -40,7 +40,7 @@ jobs:
         id: add-token
         run: node scripts/addToken.mjs
         with:
-          token: ${{ steps.parse-token.outputs.issueparser_symbol }}
+          token: ${{ steps.parse-token.outputs.new-token }}
 
       # - name: Submit New Token
       #   uses: EndBug/add-and-commit@v9
