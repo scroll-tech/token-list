@@ -15,7 +15,6 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          ref: staging
 
       - name: Use Node.js 16.x
         uses: actions/setup-node@v3
@@ -28,14 +27,20 @@ jobs:
         with:
           template-path: .github/ISSUE_TEMPLATE/add_token.yml
 
-      - name: Export New Token
-        run: echo '${{ steps.issue-parser.outputs.jsonString }}' > new_token.json
+      - name: Parse Token
+        id: parse-token
+        run: node scripts/parseToken.mjs
+        with:
+          token: ${{ steps.issue-parser.outputs.jsonString }}
 
-      # - name: Checkout New Branch
-      #   run: git checkout -B ${{ steps.issue-parser.outputs.issueparser_symbol }}
+      - name: Checkout Branch
+        run: git checkout -B ${{ steps.parse-token.outputs.prealpha-env }}
 
-      - name: Add New Token
+      - name: Add Token
+        id: add-token
         run: node scripts/addToken.mjs
+        with:
+          token: ${{ steps.parse-token.outputs.issueparser_symbol }}
 
       # - name: Submit New Token
       #   uses: EndBug/add-and-commit@v9
@@ -49,7 +54,7 @@ jobs:
         with:
           title: '[New Token] name: ${{ steps.issue-parser.outputs.issueparser_name }}'
           commit-message: add ${{ steps.issue-parser.outputs.issueparser_symbol }}
-          base: staging
+          base: ${{ steps.add-token.outputs.prealpha-env }}
           branch: new-token/${{ steps.issue-parser.outputs.issueparser_symbol }}
           delete-branch: true
           add-paths: scroll.tokenlist.json

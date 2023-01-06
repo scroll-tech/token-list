@@ -1,21 +1,13 @@
+import * as core from '@actions/core';
 import { writeFile } from 'fs/promises';
 import { readJson, generatePath } from './util.mjs';
 
 (async () => {
   try {
-    const { chainId, address, name, symbol, decimals, logoURI } =
-      await readJson('../new_token.json');
-
+    const tokenStr = core.getInput('token');
     const tokenList = await readJson('../scroll.tokenlist.json');
 
-    tokenList.tokens.push({
-      chainId: parseInt(chainId),
-      address,
-      name,
-      symbol,
-      decimals: parseInt(decimals),
-      logoURI,
-    });
+    tokenList.tokens.push(JSON.parse(tokenStr));
     tokenList.timestamp = new Date().toISOString();
     const tokenListStr = JSON.stringify(tokenList, null, 2);
 
