@@ -41,6 +41,14 @@ jobs:
           fetch-depth: 0
           ref: ${{ steps.parse-token.outputs.prealpha-env }}
 
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Install dependencies
+        run: yarn
+
       - name: Add Token
         id: add-token
         run: node scripts/addToken.mjs
