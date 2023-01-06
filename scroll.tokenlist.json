@@ -1,8 +1,12 @@
 {
   "name": "Scroll",
   "logoURI": "https://staging--scroll-io.netlify.app/imgs/home/logo.png",
-  "keywords": ["scaling", "layer2", "infrastructure"],
-  "timestamp": "2022-12-12T11:55:01.869Z",
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2023-01-06T13:23:19.196Z",
   "tokens": [
     {
       "chainId": 5343511,
@@ -43,6 +47,14 @@
       "symbol": "TSUNI2",
       "decimals": 18,
       "logoURI": "https://staging--scroll-io.netlify.app/swap/images/uni-v2.png"
+    },
+    {
+      "chainId": 123456,
+      "address": "0xc55730ccaae4dd2523dd3c52693fe0ecb9b3a856",
+      "name": "TEST Coin",
+      "symbol": "TESTC",
+      "decimals": 18,
+      "logoURI": "https://scroll-io.netlify.app/swap/images/weth.png"
     }
   ],
   "version": {
