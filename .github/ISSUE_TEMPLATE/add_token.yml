@@ -3,10 +3,20 @@ description: 'Standard or Custom'
 title: '[Token]: '
 labels: ['new', 'checked']
 body:
+  - type: dropdown
+    id: prealphaEnv
+    attributes:
+      label: prealphaEnv
+      description: The token will show in staging/main scroll prealpha
+      options:
+        - staging
+        - main
+    validations:
+      required: true
   - type: input
     id: chainId
     attributes:
-      label: 'chainId'
+      label: chainId
       description: The chain ID of the Ethereum network where this token is deployed
       placeholder: '5343511'
     validations:
@@ -14,7 +24,7 @@ body:
   - type: input
     id: address
     attributes:
-      label: 'address'
+      label: address
       description: The checksummed address of the token on the specified chain ID
       placeholder: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48'
     validations:
@@ -22,7 +32,7 @@ body:
   - type: input
     id: name
     attributes:
-      label: 'name'
+      label: name
       description: The name of the token
       placeholder: USD Coin
     validations:
@@ -30,15 +40,15 @@ body:
   - type: input
     id: symbol
     attributes:
-      label: 'symbol'
+      label: symbol
       description: The symbol for the token; must be alphanumeric
-      placeholder: 'USDC'
+      placeholder: USDC
     validations:
       required: true
   - type: input
     id: decimals
     attributes:
-      label: 'decimals'
+      label: decimals
       description: The number of decimals for the token balance
       placeholder: '18'
     validations:
@@ -46,8 +56,8 @@ body:
   - type: input
     id: logoURI
     attributes:
-      label: 'logoURI'
+      label: logoURI
       description: A URI to the token logo asset; if not set, interface will attempt to find a logo based on the token address; suggest SVG or PNG of size 64x64
-      placeholder: 'ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM'
+      placeholder: ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM
     validations:
       required: true
