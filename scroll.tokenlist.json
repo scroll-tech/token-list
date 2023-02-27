@@ -2,41 +2,8 @@
   "name": "Scroll",
   "logoURI": "https://scroll-io.netlify.app/imgs/home/logo.png",
   "keywords": ["scaling", "layer2", "infrastructure"],
-  "timestamp": "2022-12-12T11:55:01.869Z",
-  "tokens": [
-    {
-      "chainId": 534351,
-      "address": "0x1838a36ab91900fa0e637006bB2fAA6Ef1a5f841",
-      "name": "TSUSDC",
-      "symbol": "TSUSDC",
-      "decimals": 18,
-      "logoURI": "https://scroll-io.netlify.app/swap/images/usd-coin.png"
-    },
-    {
-      "chainId": 534354,
-      "address": "0x38BA9a208F34Ddc9332f6DfC0E9d567f098958A4",
-      "name": "TSUSDC",
-      "symbol": "TSUSDC",
-      "decimals": 18,
-      "logoURI": "https://scroll-io.netlify.app/swap/images/usd-coin.png"
-    },
-    {
-      "chainId": 534351,
-      "address": "0xE8c046206e7b97E30955334F9Eb0bf4912aDc09d",
-      "name": "TSWETH",
-      "symbol": "TSWETH",
-      "decimals": 18,
-      "logoURI": "https://scroll-io.netlify.app/swap/images/weth.png"
-    },
-    {
-      "chainId": 534354,
-      "address": "0x6b29C65597Fa2aC80Ab181989969092971f1Fa4e",
-      "name": "TSWETH",
-      "symbol": "TSWETH",
-      "decimals": 18,
-      "logoURI": "https://scroll-io.netlify.app/swap/images/weth.png"
-    }
-  ],
+  "timestamp": "2023-02-27T07:41:04.616Z",
+  "tokens": [],
   "version": {
     "major": 1,
     "minor": 0,
