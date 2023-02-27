@@ -9,8 +9,8 @@ body:
       label: prealphaEnv
       description: The token will show in staging/main scroll prealpha
       options:
+        - alpha
         - staging
-        - main
     validations:
       required: true
   - type: input
