@@ -1,9 +1,22 @@
 {
   "name": "Scroll",
   "logoURI": "https://scroll-io.netlify.app/imgs/home/logo.png",
-  "keywords": ["scaling", "layer2", "infrastructure"],
-  "timestamp": "2023-02-27T07:41:04.616Z",
-  "tokens": [],
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2023-03-03T09:25:19.865Z",
+  "tokens": [
+    {
+      "chainId": 534353,
+      "address": "0xdA8A025D681ac11985EcDd029A789404D362B89E",
+      "name": "Scroll Doge Coin",
+      "symbol": "SDOGE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/chengpeixin/nav/master/doge.png"
+    }
+  ],
   "version": {
     "major": 1,
     "minor": 0,
