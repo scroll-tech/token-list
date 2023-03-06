@@ -6,11 +6,19 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-03-06T01:32:41.683Z",
+  "timestamp": "2023-03-06T01:41:47.449Z",
   "tokens": [
     {
       "chainId": 534353,
       "address": "0x67aE69Fd63b4fc8809ADc224A9b82Be976039509",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll.io/imgs/token/usd-coin.png"
+    },
+    {
+      "chainId": 5,
+      "address": "0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
       "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
