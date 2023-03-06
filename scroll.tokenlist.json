@@ -1,9 +1,22 @@
 {
   "name": "Scroll",
   "logoURI": "https://scroll-io.netlify.app/imgs/home/logo.png",
-  "keywords": ["scaling", "layer2", "infrastructure"],
-  "timestamp": "2023-02-27T07:41:04.616Z",
-  "tokens": [],
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2023-03-06T01:32:41.683Z",
+  "tokens": [
+    {
+      "chainId": 534353,
+      "address": "0x67aE69Fd63b4fc8809ADc224A9b82Be976039509",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll.io/imgs/token/usd-coin.png"
+    }
+  ],
   "version": {
     "major": 1,
     "minor": 0,
