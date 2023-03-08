@@ -7,10 +7,10 @@ body:
     id: prealphaEnv
     attributes:
       label: prealphaEnv
-      description: The token will show in staging/main scroll prealpha
+      description: The token will show in main/staging scroll testnet environment
       options:
         - alpha
-        - staging
+        - develop
     validations:
       required: true
   - type: input
