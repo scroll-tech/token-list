@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-03-06T01:41:47.449Z",
+  "timestamp": "2023-03-23T06:11:19.791Z",
   "tokens": [
     {
       "chainId": 534353,
@@ -23,6 +23,14 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://scroll.io/imgs/token/usd-coin.png"
+    },
+    {
+      "chainId": 5343511,
+      "address": "0x67aE69Fd63b4fc8809ADc224A9b82Be97601009",
+      "name": "USDC Coin",
+      "symbol": "USDCTL",
+      "decimals": 18,
+      "logoURI": "https://upanh.tv/image/dVgZkF"
     }
   ],
   "version": {
