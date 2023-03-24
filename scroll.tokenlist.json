@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-03-06T01:41:47.449Z",
+  "timestamp": "2023-03-24T09:48:12.710Z",
   "tokens": [
     {
       "chainId": 534353,
@@ -23,6 +23,14 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://scroll.io/imgs/token/usd-coin.png"
+    },
+    {
+      "chainId": 534353,
+      "address": "0xe34E71bEE0Bbb08B4dDb8064A5A368Bfaa1E6eFc",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/4943.png"
     }
   ],
   "version": {
