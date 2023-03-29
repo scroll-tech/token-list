@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-03-06T01:41:47.449Z",
+  "timestamp": "2023-03-29T19:28:31.918Z",
   "tokens": [
     {
       "chainId": 534353,
@@ -23,6 +23,14 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://scroll.io/imgs/token/usd-coin.png"
+    },
+    {
+      "chainId": 534353,
+      "address": "0x98dF7E2A9aB760177049217CC77aC9513475A46e",
+      "name": "Andrii Orap coin",
+      "symbol": "AORAP",
+      "decimals": 18,
+      "logoURI": "https://upanh.tv/image/in5F1H"
     }
   ],
   "version": {
