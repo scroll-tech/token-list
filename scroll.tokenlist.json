@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-03-06T01:41:47.449Z",
+  "timestamp": "2023-04-01T10:07:12.926Z",
   "tokens": [
     {
       "chainId": 534353,
@@ -23,6 +23,14 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://scroll.io/imgs/token/usd-coin.png"
+    },
+    {
+      "chainId": 534353,
+      "address": "0x0b5E46C351C347552Fe623e589390a0224183dA5",
+      "name": "zKfrens",
+      "symbol": "ZKF",
+      "decimals": 18,
+      "logoURI": "/ipfs/QmXwfxsKR31jWz4e9cj9wZEx4iBJmFf3N9XUUDdF2qj4CE?_gl=1*ofrjzj*_ga*NmMxNTU2NjAtYzEyZi00MjY5LThlOWItZTRjYjg4ZDExNzM3*_ga_5RMPXG14TE*MTY4MDM0MzMzOS4yLjEuMTY4MDM0MzM3NS4yNC4wLjA."
     }
   ],
   "version": {
