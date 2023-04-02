@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-03-06T01:41:47.449Z",
+  "timestamp": "2023-04-02T04:57:17.377Z",
   "tokens": [
     {
       "chainId": 534353,
@@ -23,6 +23,14 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://scroll.io/imgs/token/usd-coin.png"
+    },
+    {
+      "chainId": 948057,
+      "address": "0x511E1Acc34C3231A0cF1aaa5F3BB75dB75018373",
+      "name": "Build On Scroll",
+      "symbol": "BOS",
+      "decimals": 18,
+      "logoURI": "https://blockscout.scroll.io/tx/0xf4dc03c3888e83f43aa5beabf6f9305e3e8e76cb6288bc79121efe861b189f4b"
     }
   ],
   "version": {
