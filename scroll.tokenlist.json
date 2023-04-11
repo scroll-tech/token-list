@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-03-06T01:41:47.449Z",
+  "timestamp": "2023-04-11T04:45:54.153Z",
   "tokens": [
     {
       "chainId": 534353,
@@ -23,6 +23,14 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://scroll.io/imgs/token/usd-coin.png"
+    },
+    {
+      "chainId": 204,
+      "address": "0x9B3cF2C734fee53c02f0778c2c4cDfF87Cc529E8",
+      "name": "Zero",
+      "symbol": "Zr0",
+      "decimals": 18,
+      "logoURI": "ipfs://QmY6jFfT2PXoma2fVDWnWhs4mJtmff7aTu2EWcowvkdQas"
     }
   ],
   "version": {
