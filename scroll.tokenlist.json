@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-03-06T01:41:47.449Z",
+  "timestamp": "2023-04-13T08:06:50.837Z",
   "tokens": [
     {
       "chainId": 534353,
@@ -23,6 +23,14 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://scroll.io/imgs/token/usd-coin.png"
+    },
+    {
+      "chainId": 1268602,
+      "address": "0x600d400086d05BdF810eF1B8FBf040Fc176B4350",
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "decimals": 18,
+      "logoURI": "https://ipfs.everipedia.org/ipfs/QmcshuKU6Ub7txpbyss4LeQ2gnojB58P7uopjUpJ4mdDyn"
     }
   ],
   "version": {
