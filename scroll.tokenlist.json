@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-03-06T01:41:47.449Z",
+  "timestamp": "2023-04-21T17:36:12.639Z",
   "tokens": [
     {
       "chainId": 534353,
@@ -23,6 +23,14 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://scroll.io/imgs/token/usd-coin.png"
+    },
+    {
+      "chainId": 534353,
+      "address": "0xB6200fD9e7d7AE92d480332a31fd9f983864cc93",
+      "name": "DLD",
+      "symbol": "DLD",
+      "decimals": 18,
+      "logoURI": "https://www.marcorubber.com/product-images/detail/S1000-6X64-detail-ORANG.png"
     }
   ],
   "version": {
