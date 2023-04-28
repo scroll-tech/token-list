@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-03-06T01:41:47.449Z",
+  "timestamp": "2023-04-28T17:51:32.069Z",
   "tokens": [
     {
       "chainId": 534353,
@@ -23,6 +23,14 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://scroll.io/imgs/token/usd-coin.png"
+    },
+    {
+      "chainId": 534353,
+      "address": "0x1ceAdE83A748445B11BA03E1d51DDFCF23b3295F",
+      "name": "Galaxy Impact",
+      "symbol": "GXI",
+      "decimals": 10,
+      "logoURI": "https://ipfs.thirdwebcdn.com/ipfs/QmYb92ghGBwxn1AA7vgATzhAwXQaGBGaWM6DiBFtx5zXxi/8-3uRVkNektOC9JDa.png"
     }
   ],
   "version": {
