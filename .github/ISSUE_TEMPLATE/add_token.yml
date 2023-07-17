@@ -10,7 +10,8 @@ body:
       description: The token will show in main/staging scroll testnet environment (ref)
       options:
         - alpha
-        - develop
+        - sepolia
+        - staging
     validations:
       required: true
   - type: input
