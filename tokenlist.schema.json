@@ -255,7 +255,7 @@
       "items": {
         "$ref": "#/definitions/TokenInfo"
       },
-      "minItems": 1,
+      "minItems": 0,
       "maxItems": 10000
     },
     "keywords": {
