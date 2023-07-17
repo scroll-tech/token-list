@@ -1,9 +1,22 @@
 {
   "name": "Scroll",
   "logoURI": "https://scroll-io.netlify.app/imgs/home/logo.png",
-  "keywords": ["scaling", "layer2", "infrastructure"],
-  "timestamp": "2023-03-06T01:41:47.449Z",
-  "tokens": [],
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2023-07-17T01:04:14.166Z",
+  "tokens": [
+    {
+      "chainId": 123456,
+      "address": "0xc55730ccaae4dd2523dd3c52693fe0ecb9b3a856",
+      "name": "TEST Coin",
+      "symbol": "TESTC",
+      "decimals": 18,
+      "logoURI": "https://scroll-io.netlify.app/swap/images/weth.png"
+    }
+  ],
   "version": {
     "major": 1,
     "minor": 0,
