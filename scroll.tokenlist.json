@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-03-06T01:41:47.449Z",
+  "timestamp": "2023-07-19T03:00:28.470Z",
   "tokens": [
     {
       "chainId": 534353,
@@ -23,6 +23,14 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://scroll.io/imgs/token/usd-coin.png"
+    },
+    {
+      "chainId": 541231,
+      "address": "0xe45E9fcfa058D9eBcc028ADB1448Dea56c16a58b",
+      "name": "Testh",
+      "symbol": "THY",
+      "decimals": 18,
+      "logoURI": "https://scroll-io.netlify.app/swap/images"
     }
   ],
   "version": {
