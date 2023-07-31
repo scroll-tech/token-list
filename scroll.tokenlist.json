@@ -1,9 +1,22 @@
 {
   "name": "Scroll",
   "logoURI": "https://scroll-io.netlify.app/imgs/home/logo.png",
-  "keywords": ["scaling", "layer2", "infrastructure"],
-  "timestamp": "2023-03-06T01:41:47.449Z",
-  "tokens": [],
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2023-07-31T14:02:11.340Z",
+  "tokens": [
+    {
+      "chainId": 534351,
+      "address": "0x86c55e292f59b5a1c4674f7072c4b2396249cabe",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://scroll.io/imgs/token/weth.png"
+    }
+  ],
   "version": {
     "major": 1,
     "minor": 0,
