@@ -6,11 +6,19 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-07-31T14:02:11.340Z",
+  "timestamp": "2023-07-31T14:04:53.245Z",
   "tokens": [
     {
       "chainId": 534351,
       "address": "0x86c55e292f59b5a1c4674f7072c4b2396249cabe",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://scroll.io/imgs/token/weth.png"
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
       "name": "Wrapped Ether",
       "symbol": "WETH",
       "decimals": 18,
