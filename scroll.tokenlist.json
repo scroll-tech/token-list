@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-03-06T01:41:47.449Z",
+  "timestamp": "2023-08-06T17:19:25.370Z",
   "tokens": [
     {
       "chainId": 534353,
@@ -23,6 +23,14 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://scroll.io/imgs/token/usd-coin.png"
+    },
+    {
+      "chainId": 534353,
+      "address": "0xd60342Ee53de10B013c16dE18f6d54fc8D1b1461",
+      "name": "scroller",
+      "symbol": "SCRL",
+      "decimals": 18,
+      "logoURI": "https://i.ibb.co/Vj5rDgx/ARETE-logo-3.png"
     }
   ],
   "version": {
