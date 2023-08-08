@@ -1,11 +1,7 @@
 {
   "name": "Scroll",
   "logoURI": "https://scroll-io.netlify.app/imgs/home/logo.png",
-  "keywords": [
-    "scaling",
-    "layer2",
-    "infrastructure"
-  ],
+  "keywords": ["scaling", "layer2", "infrastructure"],
   "timestamp": "2023-07-31T14:04:53.245Z",
   "tokens": [
     {
@@ -23,7 +19,7 @@
       "symbol": "GHO",
       "decimals": 18,
       "logoURI": "https://scroll.io/imgs/token/gho.png"
-    }
+    },
     {
       "chainId": 534351,
       "address": "0x5300000000000000000000000000000000000004",
