@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-03-06T01:41:47.449Z",
+  "timestamp": "2023-08-18T23:59:58.584Z",
   "tokens": [
     {
       "chainId": 534353,
@@ -23,6 +23,14 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://scroll.io/imgs/token/usd-coin.png"
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x530E558dB793AB55dC9e7A13061AE7f72D3E5c73",
+      "name": "XOXO",
+      "symbol": "XO",
+      "decimals": 18,
+      "logoURI": "https://indigo-cooperative-catfish-673.mypinata.cloud/ipfs/QmNxFFVQ1kmw92VepQ7QXJw5BojvhHEzTtdVU5ZGMz9cSU?_gl=1*1745qop*_ga*MTQyMjEwNjU0Mi4xNjkyNDAwMTgz*_ga_5RMPXG14TE*MTY5MjQwMjQwNy4yLjEuMTY5MjQwMzEwNi4yNy4wLjA."
     }
   ],
   "version": {
