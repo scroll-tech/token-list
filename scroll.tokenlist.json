@@ -1,8 +1,12 @@
 {
   "name": "Scroll",
   "logoURI": "https://scroll-io.netlify.app/imgs/home/logo.png",
-  "keywords": ["scaling", "layer2", "infrastructure"],
-  "timestamp": "2023-07-31T14:04:53.245Z",
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2023-08-26T16:18:06.845Z",
   "tokens": [
     {
       "chainId": 534351,
@@ -35,6 +39,14 @@
       "symbol": "WETH",
       "decimals": 18,
       "logoURI": "https://scroll.io/imgs/token/weth.png"
+    },
+    {
+      "chainId": 534351,
+      "address": "0x95d25Ca592B7d7fF6828A75fFF695F93199F8D8C",
+      "name": "DAO",
+      "symbol": "DAO",
+      "decimals": 9,
+      "logoURI": "https://ipfs.io/ipfs/QmRRahcmg2f5Sn8rqdiTjngV5cCHdU6pZXhquwpFhMa7JF?filename=8420.png"
     }
   ],
   "version": {
