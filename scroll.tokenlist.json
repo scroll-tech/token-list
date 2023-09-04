@@ -1,8 +1,12 @@
 {
   "name": "Scroll",
   "logoURI": "https://scroll-io.netlify.app/imgs/home/logo.png",
-  "keywords": ["scaling", "layer2", "infrastructure"],
-  "timestamp": "2023-07-31T14:04:53.245Z",
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2023-09-04T17:46:22.565Z",
   "tokens": [
     {
       "chainId": 534351,
@@ -35,6 +39,14 @@
       "symbol": "WETH",
       "decimals": 18,
       "logoURI": "https://scroll.io/imgs/token/weth.png"
+    },
+    {
+      "chainId": 534351,
+      "address": "0x0088155E26F15Bf52a289FEe8D78a09E8E723c7b",
+      "name": "dCodeX21 Scroll",
+      "symbol": "DCODEX21",
+      "decimals": 18,
+      "logoURI": "https://nftstorage.link/ipfs/bafkreidtf6klqq4n2falhzqdziiqxiiii6wfxdorkifcxayaggkm4n62fa"
     }
   ],
   "version": {
