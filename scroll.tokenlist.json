@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-03-06T01:41:47.449Z",
+  "timestamp": "2023-09-09T13:02:32.681Z",
   "tokens": [
     {
       "chainId": 534353,
@@ -23,6 +23,14 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://scroll.io/imgs/token/usd-coin.png"
+    },
+    {
+      "chainId": 5343511,
+      "address": "0x628A3b2E302C7e896AcC432D2d0dD22B6cb9bc88",
+      "name": "LimeWire",
+      "symbol": "LMWR",
+      "decimals": 18,
+      "logoURI": "https://etherscan.io/token/images/limewire_32.png"
     }
   ],
   "version": {
