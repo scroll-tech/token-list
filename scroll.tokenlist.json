@@ -1,8 +1,12 @@
 {
   "name": "Scroll",
   "logoURI": "https://scroll-io.netlify.app/imgs/home/logo.png",
-  "keywords": ["scaling", "layer2", "infrastructure"],
-  "timestamp": "2023-07-31T14:04:53.245Z",
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2023-09-11T13:19:59.734Z",
   "tokens": [
     {
       "chainId": 534351,
@@ -35,6 +39,14 @@
       "symbol": "WETH",
       "decimals": 18,
       "logoURI": "https://scroll.io/imgs/token/weth.png"
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x2D9Ac4aAaaC2286076bB86f29F5dEA30DF15991a",
+      "name": "HappyTokenL1",
+      "symbol": "HTL1",
+      "decimals": 18,
+      "logoURI": "https://ipfs.io/ipfs/QmPHH3E54KPsFf7NascWGZz8UWCREYc7QXUGHE8x5SxZms?filename=Large-logo.png"
     }
   ],
   "version": {
