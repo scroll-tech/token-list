@@ -59,7 +59,7 @@ jobs:
 
       - name: Create Pull Request
         id: create-pr
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v5
         with:
           title: '[New Token] name: ${{ steps.issue-parser.outputs.issueparser_name }}'
           body: 'Refer Issue: #${{ github.event.issue.number }}'
