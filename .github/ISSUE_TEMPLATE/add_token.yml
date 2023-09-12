@@ -12,6 +12,7 @@ body:
         - alpha
         - sepolia
         - staging
+        - test-only-branch
     validations:
       required: true
   - type: input
