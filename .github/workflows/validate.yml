@@ -1,39 +1,59 @@
-# issue-to-pr will not trigger this workflow
-name: Validate TokenList
+name: Validate PR
 
 on:
   push:
-    paths:
-      - scroll.tokenlist.json
+    branches: [main]
   pull_request:
-    paths:
-      - scroll.tokenlist.json
+    branches: [main]
 
 jobs:
   validate:
-    name: Validate TokenList
+    name: validate
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Use Node.js 16.x
+      - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 18.x
 
-      - name: Install dependencies
-        run: yarn
-
-      - name: Run validate script
-        run: node scripts/validateJson.mjs
-
-      - name: Show Token List
-        if: success() && github.event.type == 'PullRequestEvent'
-        uses: thollander/actions-comment-pull-request@v2
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v39
         with:
-          message: |
-            :tada: [Click here](https://tokenlists.org/token-list?url=https://raw.githubusercontent.com/scroll-tech/token-list/${{ github.head_ref }}/scroll.tokenlist.json) to preview token list
-          comment_tag: tokenListUrl
+          dir_names: true
+          files: |
+            data/**
+
+      - name: List all changed tokens
+        id: changed_tokens
+        run: |
+          tokens=""
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            token=$(echo -e "$file" | sed -nr "s|^data/([^/]*/?).*|\1|p")
+            tokens+="${token},"
+          done
+          echo "changed tokens: ${tokens%,*}"
+          echo "result=${tokens%,*}" >> $GITHUB_OUTPUT
+
+      - name: yarn install
+        if: ${{ steps.changed_tokens.outputs.result != '' }}
+        run: |
+          yarn install --frozen-lockfile
+
+      - name: Validate token list
+        if: ${{ steps.changed_tokens.outputs.result != '' }}
+        run: |
+          yarn validate ${{ steps.changed_tokens.outputs.result }} 2> err.txt 1> std.txt
+
+      - name: Print validation output
+        if: ${{ always() && steps.changed_tokens.outputs.result != '' }}
+        run: |
+          echo '=== std.txt ==='
+          cat std.txt
+          echo '=== err.txt ==='
+          cat err.txt

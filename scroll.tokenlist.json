@@ -1,45 +1,185 @@
 {
-  "name": "Scroll",
-  "logoURI": "https://scroll-io.netlify.app/imgs/home/logo.png",
-  "keywords": ["scaling", "layer2", "infrastructure"],
-  "timestamp": "2023-07-31T14:04:53.245Z",
+  "name": "Scroll Token List",
+  "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/scroll.png",
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2023-10-06T07:42:57.013Z",
   "tokens": [
     {
-      "chainId": 534351,
-      "address": "0xD9692f1748aFEe00FACE2da35242417dd05a8615",
-      "name": "Gho Token",
-      "symbol": "GHO",
+      "chainId": 1,
+      "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+      "name": "Aave",
+      "symbol": "AAVE",
       "decimals": 18,
-      "logoURI": "https://scroll.io/imgs/token/gho.png"
+      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/AAVE/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "AAVE"
+      }
     },
     {
-      "chainId": 11155111,
-      "address": "0x5d00fab5f2F97C4D682C1053cDCAA59c2c37900D",
-      "name": "Gho Token",
-      "symbol": "GHO",
+      "chainId": 1,
+      "address": "0xba100000625a3754423978a60c9317c58a424e3D",
+      "name": "Balancer",
+      "symbol": "BAL",
       "decimals": 18,
-      "logoURI": "https://scroll.io/imgs/token/gho.png"
+      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/BAL/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "BAL"
+      }
     },
     {
-      "chainId": 534351,
-      "address": "0x5300000000000000000000000000000000000004",
+      "chainId": 1,
+      "address": "0x152649ea73beab28c5b49b26eb48f7ead6d4c898",
+      "name": "PancakeSwap",
+      "symbol": "CAKE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/CAKE/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "CAKE"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xd533a949740bb3306d119cc777fa900ba034cd52",
+      "name": "Curve DAO",
+      "symbol": "CRV",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/CRV/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "CRV"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "name": "Dai",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/DAI/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "DAI"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202",
+      "name": "Kyber Network Crystal",
+      "symbol": "KNC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/KNC/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "KNC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
+      "name": "Liquity USD",
+      "symbol": "LUSD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/LUSD/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "LUSD"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/rETH/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "rETH"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/UNI/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "UNI"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/USDC/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "name": "Tether",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/USDT/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDT"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/WBTC/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WBTC"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
       "name": "Wrapped Ether",
       "symbol": "WETH",
       "decimals": 18,
-      "logoURI": "https://scroll.io/imgs/token/weth.png"
+      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/WETH/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WETH"
+      }
     },
     {
-      "chainId": 11155111,
-      "address": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
+      "chainId": 1,
+      "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+      "name": "Wrapped stETH",
+      "symbol": "wstETH",
       "decimals": 18,
-      "logoURI": "https://scroll.io/imgs/token/weth.png"
+      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/wstETH/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "wstETH"
+      }
     }
   ],
   "version": {
-    "major": 1,
+    "major": 0,
     "minor": 0,
-    "patch": 0
+    "patch": 1
   }
 }

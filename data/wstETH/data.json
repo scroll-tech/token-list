@@ -1,0 +1,10 @@
+{
+  "name": "Wrapped stETH",
+  "symbol": "wstETH",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+    }
+  }
+}
