@@ -9,7 +9,7 @@ import { defaultTokenDataFolders } from './defaultTokens.mjs'
 
 const version = packageJson.version
 
-const BASE_URL = 'https://raw.githubusercontent.com/scroll-tech/token-list/main'
+const BASE_URL = 'https://scroll-tech.github.io/token-list'
 const datadir = 'data'
 
 export function generate() {
