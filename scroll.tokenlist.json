@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-10-06T07:42:57.013Z",
+  "timestamp": "2023-10-07T01:26:24.399Z",
   "tokens": [
     {
       "chainId": 1,
@@ -38,7 +38,7 @@
       "name": "PancakeSwap",
       "symbol": "CAKE",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/CAKE/logo.svg",
+      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/CAKE/logo.png",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "CAKE"
@@ -121,7 +121,7 @@
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "name": "USD Coin",
       "symbol": "USDC",
-      "decimals": 18,
+      "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/USDC/logo.png",
       "extensions": {
         "scrollListId": "default",
@@ -180,6 +180,6 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 1
+    "patch": 13
   }
 }
