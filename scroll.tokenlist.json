@@ -1,12 +1,12 @@
 {
   "name": "Scroll Token List",
-  "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/scroll.png",
+  "logoURI": "https://scroll-tech.github.io/token-list/scroll.png",
   "keywords": [
     "scaling",
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-10-07T01:28:26.967Z",
+  "timestamp": "2023-10-07T03:37:49.504Z",
   "tokens": [
     {
       "chainId": 1,
@@ -14,7 +14,7 @@
       "name": "Aave",
       "symbol": "AAVE",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/AAVE/logo.svg",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/AAVE/logo.svg",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "AAVE"
@@ -26,7 +26,7 @@
       "name": "Balancer",
       "symbol": "BAL",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/BAL/logo.png",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/BAL/logo.png",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "BAL"
@@ -38,7 +38,7 @@
       "name": "PancakeSwap",
       "symbol": "CAKE",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/CAKE/logo.png",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/CAKE/logo.png",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "CAKE"
@@ -50,7 +50,7 @@
       "name": "Curve DAO",
       "symbol": "CRV",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/CRV/logo.png",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/CRV/logo.png",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "CRV"
@@ -62,7 +62,7 @@
       "name": "Dai",
       "symbol": "DAI",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/DAI/logo.svg",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/DAI/logo.svg",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "DAI"
@@ -74,7 +74,7 @@
       "name": "Kyber Network Crystal",
       "symbol": "KNC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/KNC/logo.png",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/KNC/logo.png",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "KNC"
@@ -86,7 +86,7 @@
       "name": "Liquity USD",
       "symbol": "LUSD",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/LUSD/logo.svg",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/LUSD/logo.svg",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "LUSD"
@@ -98,7 +98,7 @@
       "name": "Rocket Pool ETH",
       "symbol": "rETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/rETH/logo.svg",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/rETH/logo.svg",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "rETH"
@@ -110,7 +110,7 @@
       "name": "Uniswap",
       "symbol": "UNI",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/UNI/logo.png",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/UNI/logo.png",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "UNI"
@@ -122,7 +122,7 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/USDC/logo.png",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.png",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "USDC"
@@ -134,7 +134,7 @@
       "name": "Tether",
       "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/USDT/logo.png",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDT/logo.png",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "USDT"
@@ -146,7 +146,7 @@
       "name": "Wrapped BTC",
       "symbol": "WBTC",
       "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/WBTC/logo.svg",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WBTC/logo.svg",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "WBTC"
@@ -158,7 +158,7 @@
       "name": "Wrapped Ether",
       "symbol": "WETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/WETH/logo.png",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "WETH"
@@ -170,7 +170,7 @@
       "name": "Wrapped stETH",
       "symbol": "wstETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/scroll-tech/token-list/main/data/wstETH/logo.svg",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/wstETH/logo.svg",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "wstETH"
@@ -180,6 +180,6 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   }
 }
