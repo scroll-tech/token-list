@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-10-07T03:37:49.504Z",
+  "timestamp": "2023-10-07T04:37:08.557Z",
   "tokens": [
     {
       "chainId": 1,
@@ -66,6 +66,30 @@
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "DAI"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x5d00fab5f2F97C4D682C1053cDCAA59c2c37900D",
+      "name": "Gho Token",
+      "symbol": "GHO",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/GHO/logo.png",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "GHO"
+      }
+    },
+    {
+      "chainId": 534351,
+      "address": "0xD9692f1748aFEe00FACE2da35242417dd05a8615",
+      "name": "Gho Token",
+      "symbol": "GHO",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/GHO/logo.png",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "GHO"
       }
     },
     {
@@ -129,6 +153,30 @@
       }
     },
     {
+      "chainId": 5,
+      "address": "0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
+    },
+    {
+      "chainId": 534353,
+      "address": "0x67aE69Fd63b4fc8809ADc224A9b82Be976039509",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
       "name": "Tether",
@@ -165,6 +213,30 @@
       }
     },
     {
+      "chainId": 11155111,
+      "address": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WETH"
+      }
+    },
+    {
+      "chainId": 534351,
+      "address": "0x5300000000000000000000000000000000000004",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WETH"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
       "name": "Wrapped stETH",
@@ -180,6 +252,6 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 2
+    "patch": 3
   }
 }
