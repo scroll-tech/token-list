@@ -1,0 +1,10 @@
+{
+  "name": "Liquity USD",
+  "symbol": "LUSD",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0"
+    }
+  }
+}

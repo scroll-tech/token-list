@@ -1,0 +1,46 @@
+name: Generate Token List
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  generate:
+    name: generate
+    if: |
+      github.event.head_commit.committer.username != 'github-actions[bot]'
+        && github.repository == 'scroll-tech/token-list'
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+          fetch-depth: 0
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Patch token list version
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions"
+          npm version patch
+          git reset --soft HEAD~1
+
+      - name: Generate token list
+        run: |
+          yarn generate
+
+      - name: Commit token list
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'bot(ci): generate token list'
+          file_pattern: scroll.tokenlist.json

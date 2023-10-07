@@ -1,14 +1,14 @@
 {
-  "name": "@scroll/token-lists",
-  "author": "scroll",
-  "description": "Token list specification",
-  "version": "1.0.0",
-  "engines": {
-    "node": ">=10"
+  "name": "tokenlist",
+  "version": "0.0.12",
+  "scripts": {
+    "validate": "./bin/validate.mjs",
+    "generate": "./bin/generate.mjs"
   },
-  "dependencies": {
-    "@actions/core": "^1.10.0",
-    "ajv": "^8.6.1",
-    "ajv-formats": "^2.1.0"
+  "dependencies": {},
+  "license": "MIT",
+  "devDependencies": {
+    "ethers": "^6.7.1",
+    "glob": "^10.3.10"
   }
 }

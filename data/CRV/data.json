@@ -1,0 +1,10 @@
+{
+  "name": "Curve DAO",
+  "symbol": "CRV",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xd533a949740bb3306d119cc777fa900ba034cd52"
+    }
+  }
+}
