@@ -1,0 +1,13 @@
+{
+  "name": "Gho Token",
+  "symbol": "GHO",
+  "decimals": 18,
+  "tokens": {
+    "sepolia": {
+      "address": "0x5d00fab5f2F97C4D682C1053cDCAA59c2c37900D"
+    },
+    "scroll-sepolia": {
+      "address": "0xD9692f1748aFEe00FACE2da35242417dd05a8615"
+    }
+  }
+}
