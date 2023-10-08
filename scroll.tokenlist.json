@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-10-07T04:37:08.557Z",
+  "timestamp": "2023-10-08T01:52:41.640Z",
   "tokens": [
     {
       "chainId": 1,
@@ -38,7 +38,7 @@
       "name": "PancakeSwap",
       "symbol": "CAKE",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/CAKE/logo.png",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/CAKE/logo.svg",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "CAKE"
@@ -98,7 +98,7 @@
       "name": "Kyber Network Crystal",
       "symbol": "KNC",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/KNC/logo.png",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/KNC/logo.svg",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "KNC"
@@ -146,7 +146,7 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.png",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "USDC"
@@ -158,7 +158,7 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.png",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "USDC"
@@ -170,7 +170,7 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.png",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "USDC"
@@ -182,7 +182,7 @@
       "name": "Tether",
       "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/USDT/logo.png",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDT/logo.svg",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "USDT"
@@ -252,6 +252,6 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 3
+    "patch": 4
   }
 }
