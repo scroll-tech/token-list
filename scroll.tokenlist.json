@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-10-08T01:52:41.640Z",
+  "timestamp": "2023-10-09T03:13:03.285Z",
   "tokens": [
     {
       "chainId": 1,
@@ -76,7 +76,7 @@
       "decimals": 18,
       "logoURI": "https://scroll-tech.github.io/token-list/data/GHO/logo.png",
       "extensions": {
-        "scrollListId": "extended",
+        "scrollListId": "default",
         "scrollTokenId": "GHO"
       }
     },
@@ -252,6 +252,6 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 4
+    "patch": 5
   }
 }
