@@ -5,7 +5,10 @@ import { glob } from 'glob'
 
 import packageJson from '../package.json' assert { type: 'json' }
 import { NETWORK_DATA } from './chains.mjs'
-import { defaultTokenDataFolders } from './defaultTokens.mjs'
+import {
+  defaultTokenDataFolders,
+  defaultTokenDataFoldersEachChain,
+} from './defaultTokens.mjs'
 
 const version = packageJson.version
 
@@ -39,9 +42,11 @@ export function generate() {
           logoURI: `${BASE_URL}/data/${folder}/logo.${logoext}`,
           extensions: {
             // ...bridges,
-            scrollListId: defaultTokenDataFolders.has(folder)
-              ? 'default'
-              : 'extended',
+            scrollListId:
+              defaultTokenDataFolders.has(folder) ||
+              defaultTokenDataFoldersEachChain[chain]?.has(folder)
+                ? 'default'
+                : 'extended',
             scrollTokenId: folder,
           },
         }
