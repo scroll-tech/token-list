@@ -14,3 +14,7 @@ export const defaultTokenDataFolders = new Set([
   'UNI',
   'CRV',
 ])
+
+export const defaultTokenDataFoldersEachChain = {
+  sepolia: new Set(['GHO']),
+}
