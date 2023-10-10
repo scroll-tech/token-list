@@ -41,6 +41,8 @@ Add a file to your folder called `data.json` with the following format:
 }
 ```
 
+You can use the `getL2ERC20Address` method in [L1GatewayRouter.sol](https://github.com/scroll-tech/scroll/blob/develop/contracts/src/L1/gateways/L1GatewayRouter.sol) to get your L2 address.
+
 ### Create a pull request
 
-Open a [pull request](https://github.com/scroll-tech/token-list/pulls) with the changes that you've made. Please only add one token per pull request to simplify the review process. This means two new files inside one new folder. If you want to add multiple tokens, please open different PRs for each token.
+Open a [pull request](https://github.com/scroll-tech/token-list/pulls) targeting `main` branch with the changes that you've made. Please only add one token per pull request to simplify the review process. This means two new files inside one new folder. If you want to add multiple tokens, please open different PRs for each token.

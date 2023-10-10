@@ -13,3 +13,9 @@ export function noDuplicateStringInArray(arr) {
     })
   )
 }
+
+export function parseURL(str) {
+  try {
+    return new URL(str)
+  } catch (_err) {}
+}
