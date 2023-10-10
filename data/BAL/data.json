@@ -5,6 +5,9 @@
   "tokens": {
     "ethereum": {
       "address": "0xba100000625a3754423978a60c9317c58a424e3D"
+    },
+    "scroll": {
+      "address": "0x6a28e90582c583fcd3347931c544819C31e9D0e0"
     }
   }
 }

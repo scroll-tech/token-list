@@ -4,7 +4,10 @@
   "decimals": 18,
   "tokens": {
     "ethereum": {
-      "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
+    },
+    "scroll": {
+      "address": "0xf610A9dfB7C89644979b4A0f27063E9e7d7Cda32"
     }
   }
 }

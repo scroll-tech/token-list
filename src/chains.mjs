@@ -5,6 +5,11 @@ export const NETWORK_DATA = {
     // provider: new ethers.providers.InfuraProvider('homestead'),
     layer: 1,
   },
+  scroll: {
+    id: 534352,
+    name: 'Scroll',
+    layer: 2,
+  },
   goerli: {
     id: 5,
     name: 'Goerli',
