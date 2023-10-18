@@ -9,7 +9,6 @@ export const defaultTokenDataFolders = new Set([
   'rETH',
   'KNC',
   'BAL',
-  'CAKE',
   'AAVE',
   'UNI',
   'CRV',
