@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-10-10T07:10:49.742Z",
+  "timestamp": "2023-10-18T06:13:52.664Z",
   "tokens": [
     {
       "chainId": 1,
@@ -54,30 +54,6 @@
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "BAL"
-      }
-    },
-    {
-      "chainId": 1,
-      "address": "0x152649ea73beab28c5b49b26eb48f7ead6d4c898",
-      "name": "PancakeSwap",
-      "symbol": "CAKE",
-      "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/CAKE/logo.svg",
-      "extensions": {
-        "scrollListId": "default",
-        "scrollTokenId": "CAKE"
-      }
-    },
-    {
-      "chainId": 534352,
-      "address": "0xF613F403C2887aa473b46252da3AA5D6a6084b15",
-      "name": "PancakeSwap",
-      "symbol": "CAKE",
-      "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/CAKE/logo.svg",
-      "extensions": {
-        "scrollListId": "default",
-        "scrollTokenId": "CAKE"
       }
     },
     {
@@ -420,6 +396,6 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 7
+    "patch": 8
   }
 }
