@@ -403,6 +403,18 @@
         "scrollListId": "default",
         "scrollTokenId": "SIS"
       }
+    },
+    {
+      "chainId": 534352,
+      "address": "0x1467b62A6AE5CdcB10A6a8173cfe187DD2C5a136",
+      "name": "Symbiosis",
+      "symbol": "SIS",
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/15084.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "SIS"
+      }
     }
   ],
   "version": {
