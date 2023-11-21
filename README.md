@@ -6,7 +6,7 @@ The Scroll Token List serves as a source of truth for services such as the Scrol
 
 ### Create a folder for your token
 
-Create a folder inside the [data folder](https://github.com/ethereum-optimism/ethereum-optimism.github.io/tree/master/data) with the same name as the symbol of the token you are trying to add. For example, if you are adding a token with the symbol "ETH" you must create a folder called ETH.
+Create a folder inside the [data folder](https://github.com/scroll-tech/token-list/tree/main/data) with the same name as the symbol of the token you are trying to add. For example, if you are adding a token with the symbol "ETH" you must create a folder called ETH.
 
 ### Add a logo to your folder
 
@@ -31,10 +31,10 @@ Add a file to your folder called `data.json` with the following format:
     "scroll": {
       "address": "0x2345234523452345234523452345234523452345"
     },
-    "goerli": {
+    "sepolia": {
       "address": "0x5678567856785678567856785678567856785678"
     },
-    "scroll-goerli": {
+    "scroll-sepolia": {
       "address": "0x6789678967896789678967896789678967896789"
     }
   }
