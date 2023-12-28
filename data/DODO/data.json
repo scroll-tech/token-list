@@ -1,0 +1,16 @@
+{
+  "name": "DODO bird",
+  "symbol": "DODO",
+  "decimals": 18,
+  "description": "$DODO, DODO's native token, was created for two main functions: to incentivize growth and capture value.",
+  "website": "https://dodoex.io",
+  "twitter": "@BreederDodo",
+  "tokens": {
+    "ethereum": {
+      "address": "0x43Dfc4159D86F3A37A5A4B3D4580b888ad7d4DDd"
+    },
+    "scroll": {
+      "address": "0x912aB742e1ab30ffa87038C425F9Bc8ED12B3EF4"
+    }
+  }
+}
