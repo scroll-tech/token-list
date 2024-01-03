@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-11-21T03:27:04.168Z",
+  "timestamp": "2024-01-03T06:57:35.440Z",
   "tokens": [
     {
       "chainId": 1,
@@ -102,6 +102,30 @@
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "DAI"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x43Dfc4159D86F3A37A5A4B3D4580b888ad7d4DDd",
+      "name": "DODO bird",
+      "symbol": "DODO",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/DODO/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "DODO"
+      }
+    },
+    {
+      "chainId": 534352,
+      "address": "0x912aB742e1ab30ffa87038C425F9Bc8ED12B3EF4",
+      "name": "DODO bird",
+      "symbol": "DODO",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/DODO/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "DODO"
       }
     },
     {
@@ -396,6 +420,6 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 9
+    "patch": 10
   }
 }
