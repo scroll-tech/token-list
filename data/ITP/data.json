@@ -1,0 +1,13 @@
+{
+  "name": "Interport Finance",
+  "symbol": "ITP",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31"
+    },
+    "scroll": {
+      "address": "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31"
+    }
+  }
+}
