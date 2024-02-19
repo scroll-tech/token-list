@@ -2,8 +2,7 @@
   "name": "Token USDC",
   "symbol": "USDC",
   "decimals": 6,
-  "description": "$USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to 
-                  provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+  "description": "$USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
   "website": "https://www.circle.com/en/usdc",
   "twitter": "@circle",
   "tokens": {
