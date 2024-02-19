@@ -2,7 +2,7 @@
   "name": "SUSHI Swap",
   "symbol": "SUSHI",
   "decimals": 18,
-  "description": "$SUSHI is a leading multi-chain DEX deployed on over 30 blockchains, featuring a unique cross-chain swap",
+  "description": "$SUSHI is a leading multi-chain DEX deployed on over 30 blockchains, featuring a unique cross-chain swap.",
   "website": "https://www.sushi.com/",
   "twitter": "@SushiSwap",
   "tokens": {
