@@ -1,1 +1,16 @@
-
+{
+  "name": "SUSHI Swap",
+  "symbol": "SUSHI",
+  "decimals": 18,
+  "description": "$SUSHI is a leading multi-chain DEX deployed on over 30 blockchains, featuring a unique cross-chain swap",
+  "website": "https://www.sushi.com/",
+  "twitter": "@SushiSwap",
+  "tokens": {
+    "ethereum": {
+      "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
+    },
+    "scroll": {
+      "address": "0x5dc5D366Ca0c13D1522c61B2B489262CB783d715"
+    }
+  }
+}
