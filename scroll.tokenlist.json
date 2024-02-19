@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-01-03T06:57:35.440Z",
+  "timestamp": "2024-02-19T12:20:00.144Z",
   "tokens": [
     {
       "chainId": 1,
@@ -415,11 +415,35 @@
         "scrollListId": "default",
         "scrollTokenId": "wstETH"
       }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0xB82381A3fBD3FaFA77B3a7bE693342618240067b",
+      "name": "Wrapped stETH",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/wstETH/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "wstETH"
+      }
+    },
+    {
+      "chainId": 534351,
+      "address": "0x2DAf22Caf40404ad8ff0Ab1E77F9C08Fef3953e2",
+      "name": "Wrapped stETH",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/wstETH/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "wstETH"
+      }
     }
   ],
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 10
+    "patch": 11
   }
 }
