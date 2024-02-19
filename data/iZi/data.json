@@ -1,0 +1,16 @@
+{
+  "name": "iZUMi Token",
+  "symbol": "iZi",
+  "decimals": 18,
+  "description": "An utility token of the iZUMi Finance platform",
+  "website": "https://izumi.finance/",
+  "twitter": "@izumi_Finance",
+  "tokens": {
+    "ethereum": {
+      "address": "0x9ad37205d608B8b219e6a2573f922094CEc5c200"
+    },
+    "scroll": {
+      "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747"
+    }
+  }
+}
