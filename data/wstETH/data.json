@@ -8,6 +8,12 @@
     },
     "scroll": {
       "address": "0xf610A9dfB7C89644979b4A0f27063E9e7d7Cda32"
+    },
+    "sepolia": {
+      "address": "0xB82381A3fBD3FaFA77B3a7bE693342618240067b"
+    },
+    "scroll-sepolia": {
+      "address": "0x2DAf22Caf40404ad8ff0Ab1E77F9C08Fef3953e2"
     }
   }
 }
