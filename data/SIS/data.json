@@ -1,0 +1,16 @@
+{
+  "name": "symbiosis",
+  "symbol": "SIS",
+  "decimals": 18,
+  "website": "https://symbiosis.finance/",
+  "description": "A cross-chain engine and liquidity protocol token",
+  "twitter": "@symbiosis_fi",
+  "tokens": {
+    "ethereum": {
+      "address": "0xd38BB40815d2B0c2d2c866e0c72c5728ffC76dd9"
+    },
+    "scroll": {
+      "address": "0x1467b62A6AE5CdcB10A6a8173cfe187DD2C5a136"
+    }
+  }
+}
