@@ -1,0 +1,22 @@
+{
+  "name": "Ekinox",
+  "symbol": "EKX",
+  "decimals": 18,
+  "description": "Scroll Token",
+  "website": "",
+  "twitter": "@bogayibeklerken",
+  "tokens": {
+    "ethereum": {
+      "address": "0x1d9654c73B30F868C5Eb6F64C0E53639dAd7F74A"
+    },
+    "scroll": {
+      "address": "0x1d9654c73B30F868C5Eb6F64C0E53639dAd7F74A"
+    },
+    "sepolia": {
+      "address": "0x1d9654c73B30F868C5Eb6F64C0E53639dAd7F74A"
+    },
+    "scroll-sepolia": {
+      "address": "0x1d9654c73B30F868C5Eb6F64C0E53639dAd7F74A"
+    }
+  }
+}
