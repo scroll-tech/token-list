@@ -1,8 +1,16 @@
 import assert from 'node:assert'
 import { isObject, noDuplicateStringInArray, parseURL } from './helper.mjs'
 import { getAddress } from 'ethers'
+import winston from 'winston';
 
 import { NETWORK_DATA } from '../chains.mjs'
+
+// Create a logger
+const logger = winston.createLogger({
+  transports: [
+    new winston.transports.Console(),
+  ],
+});
 
 function validateGlobalKeys(dataDotJsonObject) {
   const GLOBAL_KEYS = [
@@ -56,23 +64,30 @@ function validateGlobalKeys(dataDotJsonObject) {
   }
 }
 
-function validateName() {}
+function validateName() { }
 
-function validateSymbol() {}
+function validateSymbol() { }
 
 function validateDecimals(decimals) {
   assert(decimals > 0, 'invalid decimals, must > 0')
   assert(decimals <= 18, 'invalid decimals, must <= 18')
 }
 
-function validateTokens(tokens) {
-  const CHAIN_NAMES = Object.keys(NETWORK_DATA)
-  const keys = Object.keys(tokens)
+function validateToken([_chainName, token]) {
+  const TOKEN_KEYS = ['address']
+  const keys = Object.keys(token)
 
   // prettier-ignore
   {
-    assert(noDuplicateStringInArray(keys), `found duplicate key, valid keys are ${CHAIN_NAMES.toString()}`)
-    assert(keys.every((key) => CHAIN_NAMES.includes(key)), `found invalid key, valid keys are ${CHAIN_NAMES.toString()}`)
+    assert(noDuplicateStringInArray(keys), `found duplicate key, valid keys are ${TOKEN_KEYS.toString()}`)
+    assert(keys.every((key) => TOKEN_KEYS.includes(key)), `found invalid key, valid keys are ${TOKEN_KEYS.toString()}`)
+  }
+
+  try {
+    getAddress(token.address)
+  } catch (error) {
+    logger.error(`Invalid address for token: ${token.address}`);
+    // You might choose to throw an error here or handle it accordingly.
   }
 }
 
@@ -99,8 +114,17 @@ ${JSON.stringify(dataDotJsonObject, null, 2)}`)
   validateGlobalKeys(dataDotJsonObject)
 
   const { name, symbol, decimals, tokens } = dataDotJsonObject
-
   // prettier-ignore
+
+  Object.entries(tokens).forEach((token) => {
+    try {
+      validateToken(token);
+    } catch (error) {
+      logger.error(`Error validating token: ${error.message}`);
+      // Handle the error, maybe skip the token or log a warning, depending on your use case.
+    }
+  });
+  
   assert.equal(tokenFolderName, symbol, 'require token symbol = token folder name')
   validateName(name)
   validateSymbol(symbol)
