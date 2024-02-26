@@ -1,0 +1,16 @@
+{
+  "name": "SushiSwap",
+  "symbol": "SUSHI",
+  "decimals": 18,
+  "description": "SUSHI is an Ethereum cryptocurrency token tied to the SushiSwap exchange, which is a decentralized exchange. Sushi owners can participate in community governance and stake their tokens to earn some of SushiSwap's transaction fees, also known as gas.",
+  "website": "https://www.sushi.com",
+  "twitter": "@SushiSwap",
+  "tokens": {
+    "ethereum": {
+      "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
+    },
+    "scroll": {
+      "address": "0xf41F573DB4174Ad96Bb8A63cECcfBba37A2f5dB2"
+    }
+  }
+}
