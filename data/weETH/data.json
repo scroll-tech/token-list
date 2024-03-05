@@ -1,0 +1,16 @@
+{
+    "name": "Wrapped eETH",
+    "symbol": "weETH",
+    "decimals": 18,
+    "description": "A liquid staking token that is natively restaked on EigenLayer.",
+    "website": "https://www.ether.fi/",
+    "twitter": "@ether_fi",
+    "tokens": {
+      "ethereum": {
+        "address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee"
+      },
+      "scroll": {
+        "address": "0x434bF013D35fc0bD36c2946AFD5365873B3C27d7"
+      }
+    }
+  }
