@@ -1,0 +1,13 @@
+{
+  "name": "Izumi Finance",
+  "symbol": "iZi",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x9ad37205d608b8b219e6a2573f922094cec5c200"
+    },
+    "scroll": {
+      "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747"
+    }
+  }
+}
