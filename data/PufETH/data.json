@@ -1,0 +1,14 @@
+{
+    "name": "Puffer Vault",
+    "symbol": "pufETH",
+    "decimals": 18,
+    "tokens": {
+      "sepolia": {
+        "address": "0xf2CB21124867a26455aE414A529B0ddfBfeAb224"
+      },
+      "scroll-sepolia": {
+        "address": "0xCd19E32F4f6F4c8D10A416c0397297169E93b464"
+      }
+    }
+  }
+  
