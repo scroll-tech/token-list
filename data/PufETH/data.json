@@ -1,6 +1,6 @@
 {
     "name": "Puffer Vault",
-    "symbol": "pufETH",
+    "symbol": "PufETH",
     "decimals": 18,
     "description": "Anti-Slashing Liquid Restaking. Earn while decentralizing Ethereum.",
     "website": "https://www.puffer.fi/",
