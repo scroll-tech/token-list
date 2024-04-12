@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-02-19T12:20:00.144Z",
+  "timestamp": "2024-04-10T12:06:45.787Z",
   "tokens": [
     {
       "chainId": 1,
@@ -201,6 +201,30 @@
       }
     },
     {
+      "chainId": 11155111,
+      "address": "0xf2CB21124867a26455aE414A529B0ddfBfeAb224",
+      "name": "Puffer Vault",
+      "symbol": "PufETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/PufETH/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "PufETH"
+      }
+    },
+    {
+      "chainId": 534351,
+      "address": "0xCd19E32F4f6F4c8D10A416c0397297169E93b464",
+      "name": "Puffer Vault",
+      "symbol": "PufETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/PufETH/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "PufETH"
+      }
+    },
+    {
       "chainId": 1,
       "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
       "name": "Rocket Pool ETH",
@@ -346,6 +370,30 @@
     },
     {
       "chainId": 1,
+      "address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/weETH/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "weETH"
+      }
+    },
+    {
+      "chainId": 534352,
+      "address": "0xcA0bFd5f735924e34Cc567146989e467fFbbCe1a",
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/weETH/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "weETH"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
       "name": "Wrapped Ether",
       "symbol": "WETH",
@@ -444,6 +492,6 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 11
+    "patch": 13
   }
 }
