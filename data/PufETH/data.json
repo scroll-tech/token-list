@@ -6,6 +6,12 @@
     "website": "https://www.puffer.fi/",
     "twitter": "@puffer_finance",
     "tokens": {
+      "ethereum": {
+        "address": "0xD9A442856C234a39a81a089C06451EBAa4306a72"
+      },
+      "scroll": {
+        "address": "0xc4d46E8402F476F269c379677C99F18E22Ea030e"
+      },
       "sepolia": {
         "address": "0xf2CB21124867a26455aE414A529B0ddfBfeAb224"
       },
