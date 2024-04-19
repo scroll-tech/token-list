@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-10T12:06:45.787Z",
+  "timestamp": "2024-04-19T10:18:48.113Z",
   "tokens": [
     {
       "chainId": 1,
@@ -198,6 +198,30 @@
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "LUSD"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xD9A442856C234a39a81a089C06451EBAa4306a72",
+      "name": "Puffer Vault",
+      "symbol": "PufETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/PufETH/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "PufETH"
+      }
+    },
+    {
+      "chainId": 534352,
+      "address": "0xc4d46E8402F476F269c379677C99F18E22Ea030e",
+      "name": "Puffer Vault",
+      "symbol": "PufETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/PufETH/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "PufETH"
       }
     },
     {
@@ -492,6 +516,6 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 13
+    "patch": 14
   }
 }
