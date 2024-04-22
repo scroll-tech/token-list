@@ -1,0 +1,13 @@
+{
+  "name": "BNB",
+  "symbol": "BNB",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0xd533a949740bb3306d119cc777fa900ba034cd52"
+    },
+    "scroll": {
+      "address": "0xB755039eDc7910C1F1BD985D48322E55A31AC0bF"
+    }
+  }
+}
