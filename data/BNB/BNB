@@ -5,13 +5,7 @@
   "description": "A multi-chain token",
   "website": "https://token.com",
   "twitter": "@token",
-  "tokens": {
-    "ethereum": {
-      "address": "0x1234123412341234123412341234123412341234"
-    },
-    "scroll": {
-      "address": "0x2345234523452345234523452345234523452345"
-    },
+  "tokens": 
     "sepolia": {
       "address": "0x5678567856785678567856785678567856785678"
     },
