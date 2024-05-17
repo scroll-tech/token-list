@@ -1,0 +1,16 @@
+{
+  "name": "ImpermaxFinance Token",
+  "symbol": "IBEX",
+  "decimals": 18,
+  "description": "Impermax is a cross-chain, permissionless, decentralized lending protocol where users can participate as lenders or borrowers in isolated lending pools.",
+  "website": "https://impermax.finance/",
+  "twitter": "@ImpermaxFinance",
+  "tokens": {
+    "ethereum": {
+      "address": "0xF655C8567E0f213e6C634CD2A68d992152161dC6"
+    },
+    "scroll": {
+      "address": "0xa2F2b428cfbafe70e52B01653Dd7C2DF7E00EB6a"
+    }
+  }
+}
