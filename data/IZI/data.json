@@ -1,0 +1,16 @@
+{
+  "name": "Izumi Finance",
+  "symbol": "IZI",
+  "decimals": 18,
+  "description": "IZI token is izumi platform's utility token, it can be used to pay for cross-chain trading fees, incentive pool set-up, and other tools' usage.",
+  "website": "https://izumi.finance/home",
+  "twitter": "@izumi_Finance",
+  "tokens": {
+    "ethereum": {
+      "address": "0x9ad37205d608b8b219e6a2573f922094cec5c200"
+    },
+    "scroll": {
+      "address": "0x87f7d5F4fD7bE9D5860b67335A54367C147bE996"
+    }
+  }
+}
