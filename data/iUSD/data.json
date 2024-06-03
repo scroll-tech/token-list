@@ -1,0 +1,16 @@
+{
+  "name": "iZUMi Bond USD",
+  "symbol": "iUSD",
+  "decimals": 18,
+  "description": " iUSD is 1:1 pegged to USD, issued by iZUMi Finance, and sold to private investors as a bond to raise funds for the future development of iZUMi’s ecosystem.",
+  "website": "https://izumi.finance",
+  "twitter": "@izumi_Finance",
+  "tokens": {
+    "ethereum": {
+      "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D"
+    },
+    "scroll": {
+      "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D"
+    }
+  }
+}
