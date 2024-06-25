@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-04-19T10:18:48.113Z",
+  "timestamp": "2024-06-25T01:24:43.103Z",
   "tokens": [
     {
       "chainId": 1,
@@ -394,30 +394,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
-      "name": "Wrapped eETH",
-      "symbol": "weETH",
-      "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/weETH/logo.svg",
-      "extensions": {
-        "scrollListId": "extended",
-        "scrollTokenId": "weETH"
-      }
-    },
-    {
-      "chainId": 534352,
-      "address": "0xcA0bFd5f735924e34Cc567146989e467fFbbCe1a",
-      "name": "Wrapped eETH",
-      "symbol": "weETH",
-      "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/weETH/logo.svg",
-      "extensions": {
-        "scrollListId": "extended",
-        "scrollTokenId": "weETH"
-      }
-    },
-    {
-      "chainId": 1,
       "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
       "name": "Wrapped Ether",
       "symbol": "WETH",
@@ -516,6 +492,6 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 14
+    "patch": 15
   }
 }

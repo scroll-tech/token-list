@@ -1,6 +1,6 @@
 {
   "name": "tokenlist",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "scripts": {
     "validate": "./bin/validate.mjs",
     "generate": "./bin/generate.mjs"
