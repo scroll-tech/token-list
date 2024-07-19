@@ -1,8 +1,12 @@
 {
   "name": "Scroll Token List",
   "logoURI": "https://scroll-tech.github.io/token-list/scroll.png",
-  "keywords": ["scaling", "layer2", "infrastructure"],
-  "timestamp": "2024-06-25T02:18:47.154Z",
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2024-07-19T19:04:26.012Z",
   "tokens": [
     {
       "chainId": 1,
@@ -317,30 +321,6 @@
       }
     },
     {
-      "chainId": 11155111,
-      "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "decimals": 6,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
-      "extensions": {
-        "scrollListId": "default",
-        "scrollTokenId": "USDC"
-      }
-    },
-    {
-      "chainId": 534351,
-      "address": "0x7878290DB8C4f02bd06E0E249617871c19508bE6",
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "decimals": 6,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
-      "extensions": {
-        "scrollListId": "default",
-        "scrollTokenId": "USDC"
-      }
-    },
-    {
       "chainId": 5,
       "address": "0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
       "name": "USD Coin",
@@ -355,6 +335,30 @@
     {
       "chainId": 534353,
       "address": "0x67aE69Fd63b4fc8809ADc224A9b82Be976039509",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
+    },
+    {
+      "chainId": 534351,
+      "address": "0x7878290DB8C4f02bd06E0E249617871c19508bE6",
       "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,

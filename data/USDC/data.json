@@ -14,6 +14,12 @@
     },
     "scroll-goerli": {
       "address": "0x67aE69Fd63b4fc8809ADc224A9b82Be976039509"
+    },
+    "sepolia": {
+      "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238"
+    },
+    "scroll-sepolia": {
+      "address": "0x7878290DB8C4f02bd06E0E249617871c19508bE6"
     }
   }
 }
