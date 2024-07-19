@@ -1,11 +1,7 @@
 {
   "name": "Scroll Token List",
   "logoURI": "https://scroll-tech.github.io/token-list/scroll.png",
-  "keywords": [
-    "scaling",
-    "layer2",
-    "infrastructure"
-  ],
+  "keywords": ["scaling", "layer2", "infrastructure"],
   "timestamp": "2024-06-25T02:18:47.154Z",
   "tokens": [
     {
@@ -311,6 +307,30 @@
     {
       "chainId": 534352,
       "address": "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
+    },
+    {
+      "chainId": 534351,
+      "address": "0x7878290DB8C4f02bd06E0E249617871c19508bE6",
       "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
