@@ -1,0 +1,16 @@
+{
+  "name": "Ankr Network",
+  "symbol": "ANKR",
+  "decimals": 18,
+  "description": "ANKR is the native utility token of Ankr and it's needed for transactions and payments for many of Ankr's services as well as platform governance.",
+  "website": "https://www.ankr.com",
+  "twitter": "@ankr",
+  "tokens": {
+    "ethereum": {
+      "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4"
+    },
+    "scroll": {
+      "address": "0x332C5ABfc5f03743BacfEd733a01cb5719b6aDDF"
+    }
+  }
+}
