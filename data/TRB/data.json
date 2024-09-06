@@ -1,0 +1,23 @@
+{
+    "name": "Tellor Tributes",
+    "symbol": "TRB",
+    "decimals": 18,
+    "description": "the decentralized oracle",
+    "website": "https://www.tellor.io",
+    "twitter": "@WeAreTellor",
+    "tokens": {
+        "ethereum": {
+            "address": "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0"
+          },
+          "scroll": {
+            "address": "0xfda87943Be918360413979ce7296E1249fcb987e"
+          },
+          "sepolia": {
+            "address": "0x80fc34a2f9FfE86F41580F47368289C402DEc660"
+          },
+          "scroll-sepolia": {
+            "address": "0xC8224ebfC539bD69848516384bF310abED504639"
+          }
+    }
+  }
+  
