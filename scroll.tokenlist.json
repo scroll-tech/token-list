@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-07-19T23:38:31.083Z",
+  "timestamp": "2024-09-06T07:07:55.541Z",
   "tokens": [
     {
       "chainId": 1,
@@ -274,6 +274,54 @@
     },
     {
       "chainId": 1,
+      "address": "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
+      "name": "Tellor Tributes",
+      "symbol": "TRB",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/TRB/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "TRB"
+      }
+    },
+    {
+      "chainId": 534352,
+      "address": "0xfda87943Be918360413979ce7296E1249fcb987e",
+      "name": "Tellor Tributes",
+      "symbol": "TRB",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/TRB/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "TRB"
+      }
+    },
+    {
+      "chainId": 11155111,
+      "address": "0x80fc34a2f9FfE86F41580F47368289C402DEc660",
+      "name": "Tellor Tributes",
+      "symbol": "TRB",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/TRB/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "TRB"
+      }
+    },
+    {
+      "chainId": 534351,
+      "address": "0xC8224ebfC539bD69848516384bF310abED504639",
+      "name": "Tellor Tributes",
+      "symbol": "TRB",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/TRB/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "TRB"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "name": "Uniswap",
       "symbol": "UNI",
@@ -516,6 +564,6 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 17
+    "patch": 18
   }
 }
