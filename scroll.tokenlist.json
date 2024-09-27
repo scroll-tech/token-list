@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-09-06T07:07:55.541Z",
+  "timestamp": "2024-09-27T11:12:29.790Z",
   "tokens": [
     {
       "chainId": 1,
@@ -102,6 +102,30 @@
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "DAI"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x5FC429110A64bC51b57Ca86dCE1714FD0fBec303",
+      "name": "Pencils Protocol Token",
+      "symbol": "DAPP",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/DAPP/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "DAPP"
+      }
+    },
+    {
+      "chainId": 534352,
+      "address": "0xb0643F7b3e2E2F10FE4e38728a763eC05f4ADeC3",
+      "name": "Pencils Protocol Token",
+      "symbol": "DAPP",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/DAPP/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "DAPP"
       }
     },
     {
@@ -564,6 +588,6 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 18
+    "patch": 19
   }
 }
