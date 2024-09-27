@@ -1,0 +1,13 @@
+{
+  "name": "Pencils Protocol Token",
+  "symbol": "DAPP",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x5FC429110A64bC51b57Ca86dCE1714FD0fBec303"
+    },
+    "scroll": {
+      "address": "0xb0643F7b3e2E2F10FE4e38728a763eC05f4ADeC3"
+    }
+  }
+}
