@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-09-27T11:12:29.790Z",
+  "timestamp": "2024-10-03T01:23:44.422Z",
   "tokens": [
     {
       "chainId": 1,
@@ -110,7 +110,7 @@
       "name": "Pencils Protocol Token",
       "symbol": "DAPP",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/DAPP/logo.svg",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/DAPP/logo.png",
       "extensions": {
         "scrollListId": "extended",
         "scrollTokenId": "DAPP"
@@ -122,7 +122,7 @@
       "name": "Pencils Protocol Token",
       "symbol": "DAPP",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/DAPP/logo.svg",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/DAPP/logo.png",
       "extensions": {
         "scrollListId": "extended",
         "scrollTokenId": "DAPP"
@@ -588,6 +588,6 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 19
+    "patch": 20
   }
 }
