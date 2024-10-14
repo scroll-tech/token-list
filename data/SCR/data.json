@@ -1,0 +1,13 @@
+{
+  "name": "Scroll",
+  "symbol": "SCR",
+  "decimals": 18,
+  "tokens": {
+    "scroll": {
+      "address": "0xd29687c813D741E2F938F4aC377128810E217b1b"
+    },
+    "scroll-sepolia": {
+      "address": "0xE42aCf913a1eEfA15A001657F8c5514cBe31E4F4"
+    }
+  }
+}
