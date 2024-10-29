@@ -1,0 +1,17 @@
+{
+    "name": "Impermax Finance",
+    "symbol": "IBEX",
+    "decimals": 18,
+    "description": "The lending protocol for market makers",
+    "website": "https://impermax.finance/",
+    "twitter": "@ImpermaxFinance",
+    "tokens": {
+        "ethereum": {
+            "address": "0xf655c8567e0f213e6c634cd2a68d992152161dc6"
+        },
+        "scroll": {
+            "address": "0x78ab77f7d590fb101aa18affc238cbfea31ead5b"
+        }
+    }
+}
+  
