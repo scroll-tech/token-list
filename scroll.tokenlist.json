@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-10-03T01:34:25.593Z",
+  "timestamp": "2024-10-29T15:03:34.892Z",
   "tokens": [
     {
       "chainId": 1,
@@ -174,6 +174,30 @@
       "extensions": {
         "scrollListId": "extended",
         "scrollTokenId": "GHO"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xf655c8567e0f213e6c634cd2a68d992152161dc6",
+      "name": "Impermax Finance",
+      "symbol": "IBEX",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/IBEX/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "IBEX"
+      }
+    },
+    {
+      "chainId": 534352,
+      "address": "0x78ab77f7d590fb101aa18affc238cbfea31ead5b",
+      "name": "Impermax Finance",
+      "symbol": "IBEX",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/IBEX/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "IBEX"
       }
     },
     {
@@ -588,6 +612,6 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 21
+    "patch": 22
   }
 }
