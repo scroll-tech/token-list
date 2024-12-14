@@ -1,0 +1,13 @@
+{
+  "name": "Scamfari",
+  "symbol": "SCM",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x8353b92201f19B4812EeE32EFd325f7EDe123718"
+    },
+    "scroll": {
+      "address": "0x8353b92201f19B4812EeE32EFd325f7EDe123718"
+    }
+  }
+}
