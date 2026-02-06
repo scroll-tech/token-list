@@ -1,0 +1,14 @@
+{
+    "name": "EURC Token",
+    "symbol": "EURC",
+    "decimals": 6,
+    "tokens": {
+      "ethereum": {
+        "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c"
+      },
+      "scroll": {
+        "address": "0x174d1a887e971f7d0fe5c68b328c30e0ed743160"
+      }
+    }
+  }
+  
