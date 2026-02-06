@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2024-10-29T15:03:34.892Z",
+  "timestamp": "2026-02-06T11:59:43.772Z",
   "tokens": [
     {
       "chainId": 1,
@@ -150,6 +150,30 @@
       "extensions": {
         "scrollListId": "extended",
         "scrollTokenId": "DODO"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+      "name": "EURC Token",
+      "symbol": "EURC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/EURC/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "EURC"
+      }
+    },
+    {
+      "chainId": 534352,
+      "address": "0x174d1a887e971f7d0fe5c68b328c30e0ed743160",
+      "name": "EURC Token",
+      "symbol": "EURC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/EURC/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "EURC"
       }
     },
     {
@@ -612,6 +636,6 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 22
+    "patch": 23
   }
 }
